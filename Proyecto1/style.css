@@ -77,6 +77,13 @@ ul {
 }
 
 
+/*Nav Left*/
+
+.nav-menu-right {
+    font-family: 'Rock Salt', cursive;
+}
+
+
 /*SHOWCASE*/
 
 hr {
@@ -112,9 +119,16 @@ hr {
     opacity: .9;
 }
 
-.showcase h2,
+.showcase h2 {
+    margin-bottom: 10px;
+    background-color: black;
+    font-size: 32px;
+}
+
 .showcase p {
     margin-bottom: 10px;
+    background-color: black;
+    font-size: 22px;
 }
 
 
@@ -161,9 +175,14 @@ hr {
     color: #ffff
 }
 
-.cards-banner-one p,
 .cards-banner-one h2 {
     margin: 10px 0 20px 0;
+}
+
+.cards-banner-one p {
+    margin: 10px 0 20px 0;
+    font-size: 20px;
+    color: whitesmoke;
 }
 
 
